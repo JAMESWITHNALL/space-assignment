@@ -1,0 +1,89 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+nav {
+    display: flex;
+    gap: 5.0rem;
+    text-transform: uppercase;
+    align-items: center;
+}
+
+nav a {
+    display: flex;
+    flex-direction:row;
+    align-items: end;
+    font-size: 20px;  
+    
+}
+
+header {
+    position: fixed;
+    color: red;
+    display: flex;
+    padding: 4rem 4rem;
+    gap: 4rem;
+    z-index: 1
+}
+
+header a {
+    color: red
+}
+
+
+.feature {
+    position: relative;
+    background-size: cover;
+    background-position: center;
+    height: 100vh
+}
+
+.image-spacex1 {
+    background-image: url(Spacex1.jpg)
+}
+
+.image-galaxy2 {
+    background-image: url(Galaxy2.jpg)
+}
+
+.rocket {
+    position: absolute;
+    bottom: 200px;
+    left: 3rem;
+    color: red;
+    display: flex;
+    flex-direction: column;
+}
+
+.p1 {
+    text-transform: uppercase;
+    font-size: 70px;
+}
+
+.spacexlaunch {
+    font-size: 60px;
+    text-transform: uppercase
+}
+
+.spacex {
+    display: inline-block;
+    max-width: 120px;
+    text-decoration: none
+    text-transform: uppercase;
+    font-size: 30px
+    padding: 1rem 2rem;
+    color: red;
+    border: 1px solid red;
+    padding: 1rem 2rem;
+   
+}
+
+
+footer {
+    background: black;
+    text-align: center;
+    color: white;
+    padding: 40px
+}
+
